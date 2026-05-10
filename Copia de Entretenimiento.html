@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Copia de style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entretenimiento</title>
+</head>
+<body> 
+
+   <!-- Botones flotantes lado izquierdo -->
+<div class="botones-flotantes">
+
+  <!-- Botón de inicio -->
+  <a href="index.html" class="btn-flotante btn-inicio" title="Inicio">🏠</a>
+
+  <!-- Botón de búsqueda -->
+  <button class="btn-flotante btn-lupa" onclick="abrirBuscador()" title="Buscar">🔍</button>
+
+  <!-- Botón de WhatsApp -->
+  <a 
+    href="https://wa.me/50232078619?text=Hola,%20solicito%20servicio%20al%20cliente"
+    class="btn-flotante btn-whatsapp"
+    target="_blank"
+    title="WhatsApp"
+  >
+    💬
+  </a> 
+  <a 
+  href="https://www.tiktok.com/@tecnodemo0?_r=1&_t=ZS-96B5ytkvPWu"
+  class="btn-flotante btn-tiktok"
+  target="_blank"
+  title="TikTok"
+>
+  <img src="Tiktok.jpg" alt="TikTok">
+</a>
+
+</div>
+
+
+<!-- Logo flotante lado derecho -->
+<a href="index.html" class="logo-flotante">
+  <img src="Tecno.jpg" alt="Logo Tecno Demo">
+</a>
+
+
+<!-- Ventana del buscador -->
+<div class="buscador-modal" id="buscadorModal">
+  <div class="buscador-contenido">
+
+    <button class="cerrar-buscador" onclick="cerrarBuscador()">×</button>
+
+    <h2>Buscar en Tecno Demo</h2>
+
+    <input 
+      type="text" 
+      id="inputBusqueda" 
+      placeholder="Buscar Netflix, DPI, pasaporte, soporte..."
+      onkeyup="buscarEnPagina()"
+    >
+
+    <div id="resultadosBusqueda"></div>
+
+  </div>
+</div>
+
+
+<!-- Conexión con JavaScript -->
+<script src="Copia de script.js"></script>
+     
+    <section class="contenedor"> 
+        <div class="tarjeta">
+            <h2>Netflix</h2>
+            <img src="Copia de Netflix.jpg" alt="Netflix" style="width: 100px; text-align: center;"> <br>
+            <a href="Copia de Netflix.html" target="_blank">Ver mas</a>
+            <h2 style="">Planes disponibles</h2>
+        </div>
+        
+        <div class="tarjeta">
+
+                <H2>Prime Video </H2>
+            <img src="Copia de Prime.jpg" alt="" style="width: 100px;text-align: center;"> <br>
+            <a href="Copia de Prime.html" target="_blank">ver mas</a> 
+            <h2>Planes disponibles</h2>
+         </div>
+
+           
+        <div class="tarjeta">
+            <h2>Disney Plus</h2>
+            <img src="Copia de disne.jpg" alt="" style="width: 100px;text-align: center;"> <br>
+            <a href="Copia de Disney.html" target="_blank">Ver mas</a>
+            <h2>Planes disponibles</h2> 
+        </div> 
+    
+        <div class="tarjeta">
+            <h2>HboMax</h2>
+            <img src="Copia de hbomax.jpg" alt="" style="width: 100px;height: 100px; center;">
+           <a href="Copia de Hbo.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div>
+
+ <div class="tarjeta">
+            <h2>Spotify</h2>
+            <img src="Copia de spotify.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Spotify.html" target="_blank">Ver mas</a> 
+           <h2>Planes disponibles</h2>
+
+        </div> 
+
+         <div class="tarjeta">
+            <h2>Youtube Premium</h2>
+            <img src="Copia de youtube.jpg+" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de youtube.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+
+         <div class="tarjeta">
+            <h2>Canva Pro</h2>
+            <img src="Copia de canva.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de canva.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+         
+      
+      <div class="tarjeta">
+            <h2>Apps Combo duo</h2>
+            <img src="Copia de Duo.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Duo.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+        <div class="tarjeta">
+            <h2>3 Apps</h2>
+            <img src="Copia de Trio.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Trio.html"="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div>
+
+         <div class="tarjeta">
+            <h2>CapCut</h2>
+            <img src="Copia de Capcut.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de capcut.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+        <div class="tarjeta">
+            <h2>Vix</h2> 
+            <br>
+            <img src="Copia de Vix.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de vix.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+
+        <div class="tarjeta">
+            <h2>ChatGpt</h2> 
+            <img src="Copia de Chat.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Chatgp.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+
+        <div class="tarjeta">
+            <h2>Paramount</h2> 
+            <img src="Copia de Paramount.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Paramount.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+        <div class="tarjeta">
+            <h2>4 Apps</h2> 
+            <img src="Copia de cuatro.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de cuatro.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+        <div class="tarjeta">
+            <h2>IPTV Bronce</h2> 
+            <img src="Copia de bronce.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Bronce.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+        <div class="tarjeta">
+            <h2>IPTV Plata </h2> 
+            <img src="Copia de Plata.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Plata.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+        <div class="tarjeta">
+            <h2> IPTV Oro </h2> 
+            <img src="Copia de Oro.jpg" alt="" style="width: 100px;text-align: center;">
+           <a href="Copia de Oro.html" target="_blank">Ver mas</a>
+           <h2>Planes disponibles</h2>
+
+        </div> 
+   
+   
+   
+   
+    
+</body>
+</html>

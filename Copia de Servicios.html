@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Copia de style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginas web</title>
+</head>
+<body> 
+     <!-- Botones flotantes lado izquierdo -->
+<div class="botones-flotantes">
+
+  <!-- Botón de inicio -->
+  <a href="Copia de index.html" class="btn-flotante btn-inicio" title="Inicio">🏠</a>
+
+  <!-- Botón de búsqueda -->
+  <button class="btn-flotante btn-lupa" onclick="abrirBuscador()" title="Buscar">🔍</button>
+
+  <!-- Botón de WhatsApp -->
+  <a 
+    href="https://wa.me/50232078619?text=Hola,%20solicito%20servicio%20al%20cliente"
+    class="btn-flotante btn-whatsapp"
+    target="_blank"
+    title="WhatsApp"
+  >
+    💬
+  </a> 
+  <a 
+  href="https://www.tiktok.com/@tecnodemo0?_r=1&_t=ZS-96B5ytkvPWu"
+  class="btn-flotante btn-tiktok"
+  target="_blank"
+  title="TikTok"
+>
+  <img src="Copia de Tiktok.jpg" alt="TikTok">
+</a>
+
+</div>
+
+
+<!-- Logo flotante lado derecho -->
+<a href="Copia de index.html" class="logo-flotante">
+  <img src="Copia de Tecno.jpg" alt="Logo Tecno Demo">
+</a>
+
+
+<!-- Ventana del buscador -->
+<div class="buscador-modal" id="buscadorModal">
+  <div class="buscador-contenido">
+
+    <button class="cerrar-buscador" onclick="cerrarBuscador()">×</button>
+
+    <h2>Buscar en Tecno Demo</h2>
+
+    <input 
+      type="text" 
+      id="inputBusqueda" 
+      placeholder="Buscar Netflix, DPI, pasaporte, soporte..."
+      onkeyup="buscarEnPagina()"
+    >
+
+    <div id="resultadosBusqueda"></div>
+
+  </div>
+</div>
+
+
+<!-- Conexión con JavaScript -->
+<script src="Copia de script.js"></script>
+     
+    <section class="contenedor"> 
+        <div class="tarjeta">
+            <h2>Mantenimientos</h2>
+            <img src="Copia de demo.jpg" alt="Netflix" style="width: 100px; text-align: center;"> <br>
+            <a href="Copia de Mantenimientos.html" target="_blank">Ver mas</a>
+            <br>
+            <h2 style="">Preventivos y Correctivos</h2>
+        </div>
+        
+        <div class="tarjeta">
+            <h2>Reparaciones de Dispositivos</h2>
+            <img src="Copia de demo.jpg" alt="" style="width: 100px;text-align: center;"> <br>
+            <a href="Copia de Reparaciones.html" target="_blank">Ver mas</a>
+            <br>
+            <h2>Reparaciones</h2> 
+        </div> 
+    
+        <div class="tarjeta">
+            <h2>Desbloqueo de iphone</h2>
+            <img src="Copia de demo.jpg" alt="" style="width: 100px;height: 100px; center;">
+             <h2>⬇️</h2>
+            <a href="https://wa.me/50232078619?text=Hola%20quiero%20informacion%20sobre%20Desbloqueo%20de%20Iphones" target="_blank">comunicate con nosotros</a>
+            <br>
+           <h2>Desbloqueo de Iphones</h2>
+
+        </div>
+<div class="tarjeta">
+            <h2>Desarollo de Paginas Web</h2>
+            <img src="Copia de demo.jpg" alt="" style="width: 100px;height: 100px; center;">
+             <h2>⬇️</h2>
+            <a href="https://wa.me/50232078619?text=Hola%20quiero%20informacion%20sobre%20Desarrollo%20Paginas%20Web" target="_blank">comunicate con nosotros</a>
+            <br>
+           <h2>Paginas Web</h2>
+
+        </div>
+        </div>
+<div class="tarjeta">
+            <h2>Instalacion de Maquinas Viruales</h2>
+            <img src="Copia de demo.jpg" alt="" style="width: 100px;height: 100px; center;">
+             <h2>⬇️</h2>
+            <a href="https://wa.me/50232078619?text=Hola%20quiero%20informacion%20sobre%20Instalacion%20Maquinas%20Virtuales" target="_blank">comunicate con nosotros</a>
+            <br>
+           <h2>Maquinas Virtuales</h2>
+
+        </div>  
+        </div>
+<div class="tarjeta">
+            <h2>Actualizaciones de SoftWare</h2>
+            <img src="Copia de demo.jpg" alt="" style="width: 100px;height: 100px; center;">
+             <h2>⬇️</h2>
+            <a href="https://wa.me/50232078619?text=Hola%20quiero%20informacion%20sobre%20Actualizacion%20SoftWare" target="_blank">comunicate con nosotros</a>
+            <br>
+           <h2>Actualizaciones</h2>
+
+        </div>
+ 
+
+         
+</body>
+</html>

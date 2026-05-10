@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HboMax</title>
+    <link rel="stylesheet" href="Copia de style.css">
+</head>
+<body> 
+    <!-- Botones flotantes lado izquierdo -->
+<div class="botones-flotantes">
+
+  <!-- Botón de inicio -->
+  <a href="Copia de index.html" class="btn-flotante btn-inicio" title="Inicio">🏠</a>
+
+  <!-- Botón de búsqueda -->
+  <button class="btn-flotante btn-lupa" onclick="abrirBuscador()" title="Buscar">🔍</button>
+
+  <!-- Botón de WhatsApp -->
+  <a 
+    href="https://wa.me/50248738077?text=Hola,%20solicito%20servicio%20al%20cliente"
+    class="btn-flotante btn-whatsapp"
+    target="_blank"
+    title="WhatsApp"
+  >
+    💬
+  </a> 
+  <a 
+  href="https://www.tiktok.com/@tecnodemo0?_r=1&_t=ZS-96B5ytkvPWu"
+  class="btn-flotante btn-tiktok"
+  target="_blank"
+  title="TikTok"
+>
+  <img src="Copia de Tiktok.jpg" alt="TikTok">
+</a>
+
+</div>
+
+
+<!-- Logo flotante lado derecho -->
+<a href="Copia de index.html" class="logo-flotante">
+  <img src="Copia de Tecno.jpg" alt="Logo Tecno Demo">
+</a>
+
+
+<!-- Ventana del buscador -->
+<div class="buscador-modal" id="buscadorModal">
+  <div class="buscador-contenido">
+
+    <button class="cerrar-buscador" onclick="cerrarBuscador()">×</button>
+
+    <h2>Buscar en Tecno Demo</h2>
+
+    <input 
+      type="text" 
+      id="inputBusqueda" 
+      placeholder="Buscar Netflix, DPI, pasaporte, soporte..."
+      onkeyup="buscarEnPagina()"
+    >
+
+    <div id="resultadosBusqueda"></div>
+
+  </div>
+</div>
+
+
+<!-- Conexión con JavaScript -->
+<script src="Copia de script.js"></script>
+     
+    <h1>Planes de HboMax</h1>
+   <section class=" contenedor">
+        <div class="tarjeta">
+            <h2>Hbo Max</h2> <h2>Plan Basico</h2> 
+            <p>1 Meses</p>
+            <img src="Copia de hbomax.jpg" alt="">
+            <p> Hbo Max <br> 1 dispositivo <br> Series y peliculas✅ <br> Acceso Inmediato <br>Soporte Tecnico</p> 
+            <br> <a>Q55.oo</a> 
+            <br>
+            <a href="https://wa.me/50248738077?text=Hola%20quiero%20informacion%20sobre%20plan%20Basico%20 HboMax%20 Un Mes" target="_blank">comunicate con nosotros</a> 
+            <br>
+            
+        </div>
+    </section>
+    
+    <section class=" contenedor">
+        <div class="tarjeta">
+            <h2>Hbo Max</h2> <h2>Plan Estandar</h2> 
+            <p>3 Meses</p>
+            <img src="Copia de hbomax.jpg" alt="">
+            <p> Hbo Max <br> 1 dispositivo <br> Series y peliculas✅ <br> Acceso Inmediato <br>Soporte Tecnico</p> 
+            <br> <a>Q115.oo</a> 
+            <br>
+            <a href="https://wa.me/50248738077?text=Hola%20quiero%20informacion%20sobre%20plan%20Estandar%20 HboMax%20 Tres Meses" target="_blank">comunicate con nosotros</a> 
+            <br>
+            
+        </div>
+    </section>
+
+    <section class=" contenedor">
+        <div class="tarjeta">
+            <h2>Hbo Max</h2> <h2>Plan Premium</h2> 
+            <p>6 Meses</p>
+            <img src="Copia de hbomax.jpg" alt="">
+            <p> Hbo Max <br> 1 dispositivo <br> Series y peliculas✅ <br> Acceso Inmediato <br>Soporte Tecnico</p> 
+            <br> <a>Q150.oo</a> 
+            <br>
+            <a href="https://wa.me/50248738077?text=Hola%20quiero%20informacion%20sobre%20plan%20Premium%20 HboMax%20 Seis Meses" target="_blank">comunicate con nosotros</a> 
+            <br>
+            
+        </div>
+    </section> 
+    <section class=" contenedor">
+        <div class="tarjeta">
+            <h2>Hbo Max</h2> <h2>Cuenta completa</h2> 
+            <p>1 Meses</p>
+            <img src="Copia de hbomax.jpg" alt="">
+            <p> Hbo Max Full <br> 5 Perfiles Personalizados <br>Calidad Full Hd/4k <br> Series y peliculas✅ <br> Acceso Inmediato <br>Soporte Tecnico</p> 
+            <br> <a>Q85.oo</a> 
+            <br>
+            <a href="https://wa.me/50248738077?text=Hola%20quiero%20informacion%20sobre%20plan%20Cuenta Completa%20 HboMax%20 Un Mes" target="_blank">comunicate con nosotros</a> 
+            <br>
+            
+        </div>
+    </section>
+    <section class=" contenedor">
+        <div class="tarjeta">
+            <h2>Duo de apps</h2> <h2>2 Apps a tu eleccion</h2> 
+            <p>6 Meses</p>
+            <img src="Copia de Duo.jpg" alt="">
+            <p>Tu eliges tus apps favoritas✅ <br> Activacion imnediata  <br> Garantia por 6 meses <br>Soporte Tecnico</p> 
+            <br> <a>Q280.oo</a> 
+            <br>
+            <a href="https://wa.me/50248738077?text=Hola%20quiero%20informacion%20sobre%20plan%20Duo%20Dos%20Apps%20 Seis Meses" target="_blank">comunicate con nosotros</a> 
+            <br>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
